@@ -46,8 +46,8 @@ Submit a pull request with a descriptive explanation of the changes made.
 Contact Information
 If you have any questions, suggestions, or would like to discuss this project further, please reach out:
 
-Email: msebastiani93@gmail.com
-GitHub: https://github.com/Marco177171
+Email: [msebastiani93@gmail.com]
+GitHub: [https://github.com/Marco177171]
 Thank you for exploring the printf_recreation project! Your interest and contributions are highly appreciated.
 
 Best regards,
