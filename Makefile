@@ -16,12 +16,10 @@ SRCS = *.c
 
 OBJS = $(SRCS:.c=.o)
 
-HDRS = ft_printf.h
-
 FLAGS = -Wall -Wextra -Werror
 
 $(NAME):
-		gcc -c $(FLAGS) -I $(HDRS) $(SRCS)
+		gcc -c $(FLAGS) $(SRCS)
 		ar rc $(NAME) $(OBJS)
 		ranlib $(NAME)
 
@@ -30,7 +28,7 @@ all:	$(NAME)
 clean:
 		rm -f $(OBJS)
 
-fclean:     clean
+fclean:	clean
 		rm -f $(NAME)
 
 re:		fclean all
